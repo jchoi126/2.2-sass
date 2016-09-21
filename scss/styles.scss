@@ -24,23 +24,53 @@ h1{
 }
 
 .backg{
-  background: url("../images/top-image.png") no-repeat content -10px;
+  background: url("images/top-image.png") no-repeat content -10px;
   background-size: cover;
   position: relative;
   height: 340px;
 }
 
+.white{
+  color: white;
+  font-size: 42px;
+}
 
+.relative{
+  position:relative;
+}
 
+.mzero{
+  margin: 0 auto;
+}
 
+.textmiddle{
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+}
 
+.inline{
+  display: inline-block;
+}
 
+.nopadding{
+  padding: 0;
+  width: 0;
+}
 
+.profiles{
+  background-repeat: no-repeat;
+  background-image: center
+}
 
+.bwhite{
+  background-color: white;
+}
 
-
-
-
+.bwhite > img{
+  padding: 12px;
+}
 
 
 
