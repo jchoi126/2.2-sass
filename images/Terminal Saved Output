@@ -1,0 +1,2993 @@
+Last login: Mon Sep  5 18:10:56 on ttys000
+Johnnies-MacBook-Pro:~ johnniechoi$ 
+  [Restored Sep 10, 2016, 1:36:10 PM]
+Last login: Sat Sep 10 13:36:04 on ttys000
+Restored session: Sat Sep 10 13:36:06 EDT 2016
+Johnnies-MacBook-Pro:~ johnniechoi$ 
+  [Restored Sep 11, 2016, 7:38:18 PM]
+Last login: Sat Sep 10 13:36:09 on ttys000
+Restored session: Sat Sep 10 13:36:11 EDT 2016
+Johnnies-MacBook-Pro:~ johnniechoi$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Johnnies-MacBook-Pro:~ johnniechoi$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Johnnies-MacBook-Pro:~ johnniechoi$ ls
+Applications			Desktop				Music
+Calibre Library			Documents			Pictures
+Creative Cloud Files		Downloads			Public
+Creative Cloud Files (archived)	Library				UserContent
+Creative Cloud Files (unknown)	Movies
+Johnnies-MacBook-Pro:~ johnniechoi$ pwd
+/Users/johnniechoi
+Johnnies-MacBook-Pro:~ johnniechoi$ ls -al
+total 120
+drwxr-xr-x+   24 johnniechoi  staff    816 Sep  3 20:17 .
+drwxr-xr-x     5 root         admin    170 Jul 10  2015 ..
+-r--------     1 johnniechoi  staff      7 Nov  6  2014 .CFUserTextEncoding
+-rw-r--r--@    1 johnniechoi  staff  20484 Aug 25 20:30 .DS_Store
+drwx------     5 johnniechoi  staff    170 Aug 27 19:14 .Trash
+drwxr-xr-x    12 johnniechoi  staff    408 Sep  3 20:19 .atom
+-rw-------     1 johnniechoi  staff   7478 Sep  6 07:38 .bash_history
+-rw-r--r--@    1 johnniechoi  staff     39 Mar 10  2015 .bash_profile
+drwxr-xr-x    10 johnniechoi  staff    340 Sep 11 19:38 .bash_sessions
+-rw-------     1 root         staff  19099 Mar 28  2015 .mysql_history
+drwx------     3 johnniechoi  staff    102 Jun 25  2014 Applications
+drwxr-xr-x     7 johnniechoi  staff    238 May 28 12:44 Calibre Library
+drwx------@    5 johnniechoi  staff    170 Mar  5  2016 Creative Cloud Files
+drwx------@    5 johnniechoi  staff    170 Feb  2  2015 Creative Cloud Files (archived)
+drwx------@    3 johnniechoi  staff    102 Mar 13  2015 Creative Cloud Files (unknown)
+drwx------+   29 johnniechoi  staff    986 Aug 27 19:14 Desktop
+drwx------+    9 johnniechoi  staff    306 Jan  9  2016 Documents
+drwx------+  118 johnniechoi  staff   4012 Sep 11 16:45 Downloads
+drwx------@   56 johnniechoi  staff   1904 Aug 12  2015 Library
+drwx------+    3 johnniechoi  staff    102 Jan 26  2014 Movies
+drwx------+    6 johnniechoi  staff    204 Jun 22 21:15 Music
+drwx------+ 1166 johnniechoi  staff  39644 Apr 24  2015 Pictures
+drwxr-xr-x+    5 johnniechoi  staff    170 Jan 26  2014 Public
+drwxr-xr-x     8 johnniechoi  staff    272 Feb  6  2015 UserContent
+Johnnies-MacBook-Pro:~ johnniechoi$ cd Documents/
+Johnnies-MacBook-Pro:Documents johnniechoi$ pwd
+/Users/johnniechoi/Documents
+Johnnies-MacBook-Pro:Documents johnniechoi$ mkdir code
+Johnnies-MacBook-Pro:Documents johnniechoi$ ls -al
+total 3472
+drwx------+ 10 johnniechoi  staff      340 Sep 11 19:47 .
+drwxr-xr-x+ 24 johnniechoi  staff      816 Sep  3 20:17 ..
+-rw-r--r--@  1 johnniechoi  staff     6148 Sep 11 19:45 .DS_Store
+-rw-------   1 johnniechoi  staff        0 Jan 26  2014 .localized
+-rw-r--r--@  1 johnniechoi  staff    82198 Jan 22  2015 App Meeting with Kenny.docx
+-rw-r--r--@  1 johnniechoi  staff  1601536 Oct 28  2015 JCHOI Reference.indd
+drwxr-xr-x   2 johnniechoi  staff       68 Jan  9  2016 MacKeeper Backups
+-rw-r--r--@  1 johnniechoi  staff    80188 Feb 23  2015 Meeting 2.23 Dan Dietz.docx
+drwxr-xr-x   3 johnniechoi  staff      102 Dec 13  2015 TomTom
+drwxr-xr-x   2 johnniechoi  staff       68 Sep 11 19:47 code
+Johnnies-MacBook-Pro:Documents johnniechoi$ xcode-select --install
+xcode-select: note: install requested for command line developer tools
+Johnnies-MacBook-Pro:Documents johnniechoi$ 
+  [Restored Sep 12, 2016, 10:48:52 AM]
+Last login: Sun Sep 11 19:53:06 on ttys001
+Restored session: Sun Sep 11 21:08:48 EDT 2016
+Johnnies-MacBook-Pro:Documents johnniechoi$ clear
+
+Johnnies-MacBook-Pro:Documents johnniechoi$ cd
+Johnnies-MacBook-Pro:~ johnniechoi$ pwd
+/Users/johnniechoi
+Johnnies-MacBook-Pro:~ johnniechoi$ ls -al
+total 120
+drwxr-xr-x+   25 johnniechoi  staff    850 Sep 11 20:27 .
+drwxr-xr-x     5 root         admin    170 Jul 10  2015 ..
+-r--------     1 johnniechoi  staff      7 Nov  6  2014 .CFUserTextEncoding
+-rw-r--r--@    1 johnniechoi  staff  20484 Sep 11 19:47 .DS_Store
+drwx------     9 johnniechoi  staff    306 Sep 11 20:21 .Trash
+drwxr-xr-x    13 johnniechoi  staff    442 Sep 11 20:05 .atom
+-rw-------     1 johnniechoi  staff   7599 Sep 11 21:08 .bash_history
+-rw-r--r--@    1 johnniechoi  staff     39 Mar 10  2015 .bash_profile
+drwxr-xr-x    16 johnniechoi  staff    544 Sep 12 10:50 .bash_sessions
+-rw-------     1 root         staff  19099 Mar 28  2015 .mysql_history
+drwx------     5 johnniechoi  staff    170 Sep 11 20:41 .ssh
+drwx------     3 johnniechoi  staff    102 Jun 25  2014 Applications
+drwxr-xr-x     7 johnniechoi  staff    238 May 28 12:44 Calibre Library
+drwx------@    5 johnniechoi  staff    170 Mar  5  2016 Creative Cloud Files
+drwx------@    5 johnniechoi  staff    170 Feb  2  2015 Creative Cloud Files (archived)
+drwx------@    3 johnniechoi  staff    102 Mar 13  2015 Creative Cloud Files (unknown)
+drwx------+   20 johnniechoi  staff    680 Sep 11 20:28 Desktop
+drwx------+   10 johnniechoi  staff    340 Sep 11 19:47 Documents
+drwx------+  119 johnniechoi  staff   4046 Sep 11 20:21 Downloads
+drwx------@   56 johnniechoi  staff   1904 Aug 12  2015 Library
+drwx------+    3 johnniechoi  staff    102 Jan 26  2014 Movies
+drwx------+    6 johnniechoi  staff    204 Jun 22 21:15 Music
+drwx------+ 1166 johnniechoi  staff  39644 Apr 24  2015 Pictures
+drwxr-xr-x+    5 johnniechoi  staff    170 Jan 26  2014 Public
+drwxr-xr-x     8 johnniechoi  staff    272 Feb  6  2015 UserContent
+Johnnies-MacBook-Pro:~ johnniechoi$ ls
+Applications			Desktop				Music
+Calibre Library			Documents			Pictures
+Creative Cloud Files		Downloads			Public
+Creative Cloud Files (archived)	Library				UserContent
+Creative Cloud Files (unknown)	Movies
+Johnnies-MacBook-Pro:~ johnniechoi$ cd ~/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ ls
+Johnnies-MacBook-Pro:code johnniechoi$ pwd
+/Users/johnniechoi/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ ls -al
+total 0
+drwxr-xr-x   2 johnniechoi  staff   68 Sep 11 19:47 .
+drwx------+ 10 johnniechoi  staff  340 Sep 11 19:47 ..
+Johnnies-MacBook-Pro:code johnniechoi$ pwd
+/Users/johnniechoi/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ ls
+Johnnies-MacBook-Pro:code johnniechoi$ pwd
+/Users/johnniechoi/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ clear
+
+
+
+
+
+Johnnies-MacBook-Pro:code johnniechoi$ mkdir 1.1-ugly-website
+Johnnies-MacBook-Pro:code johnniechoi$ cd 1.1-ugly-website/
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ cd
+Johnnies-MacBook-Pro:~ johnniechoi$ pwd
+/Users/johnniechoi
+Johnnies-MacBook-Pro:~ johnniechoi$ cd ~/Documents
+Johnnies-MacBook-Pro:Documents johnniechoi$ pwd
+/Users/johnniechoi/Documents
+Johnnies-MacBook-Pro:Documents johnniechoi$ cd ~/Documents/code/1.1-ugly-website/
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ cd code
+-bash: cd: code: No such file or directory
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ cd ~/Documents/code/
+Johnnies-MacBook-Pro:code johnniechoi$ ls
+1.1-ugly-website
+Johnnies-MacBook-Pro:code johnniechoi$ cd ~/Documents/code/1.1-ugly-website/
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.1-ugly-website
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ touch index.html
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls
+index.html
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls -al
+total 0
+drwxr-xr-x  3 johnniechoi  staff  102 Sep 12 11:03 .
+drwxr-xr-x  4 johnniechoi  staff  136 Sep 12 11:02 ..
+-rw-r--r--  1 johnniechoi  staff    0 Sep 12 11:03 index.html
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ mkdir styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls -al
+total 0
+drwxr-xr-x  4 johnniechoi  staff  136 Sep 12 11:05 .
+drwxr-xr-x  4 johnniechoi  staff  136 Sep 12 11:02 ..
+-rw-r--r--  1 johnniechoi  staff    0 Sep 12 11:03 index.html
+drwxr-xr-x  2 johnniechoi  staff   68 Sep 12 11:05 styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ touch styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls -al
+total 0
+drwxr-xr-x  4 johnniechoi  staff  136 Sep 12 11:05 .
+drwxr-xr-x  4 johnniechoi  staff  136 Sep 12 11:02 ..
+-rw-r--r--  1 johnniechoi  staff    0 Sep 12 11:03 index.html
+drwxr-xr-x  2 johnniechoi  staff   68 Sep 12 11:05 styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ touch styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls -al
+total 16
+drwxr-xr-x  5 johnniechoi  staff   170 Sep 12 11:06 .
+drwxr-xr-x  4 johnniechoi  staff   136 Sep 12 11:02 ..
+-rw-r--r--@ 1 johnniechoi  staff  6148 Sep 12 11:06 .DS_Store
+-rw-r--r--  1 johnniechoi  staff     0 Sep 12 11:03 index.html
+-rw-r--r--  1 johnniechoi  staff     0 Sep 12 11:06 styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.1-ugly-website
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls -al
+total 16
+drwxr-xr-x  5 johnniechoi  staff   170 Sep 12 11:06 .
+drwxr-xr-x  4 johnniechoi  staff   136 Sep 12 11:02 ..
+-rw-r--r--@ 1 johnniechoi  staff  6148 Sep 12 11:06 .DS_Store
+-rw-r--r--  1 johnniechoi  staff     0 Sep 12 11:03 index.html
+-rw-r--r--  1 johnniechoi  staff     0 Sep 12 11:06 styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.1-ugly-website
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls -al
+total 16
+drwxr-xr-x  5 johnniechoi  staff   170 Sep 12 11:06 .
+drwxr-xr-x  4 johnniechoi  staff   136 Sep 12 11:02 ..
+-rw-r--r--@ 1 johnniechoi  staff  6148 Sep 12 11:06 .DS_Store
+-rw-r--r--  1 johnniechoi  staff     0 Sep 12 11:03 index.html
+-rw-r--r--  1 johnniechoi  staff     0 Sep 12 11:06 styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ open .
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ atam .
+-bash: atam: command not found
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ atom 
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ atom .
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ open.
+-bash: open.: command not found
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ open .
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.1-ugly-website
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls -al
+total 32
+drwxr-xr-x  5 johnniechoi  staff   170 Sep 12 11:06 .
+drwxr-xr-x  4 johnniechoi  staff   136 Sep 12 11:02 ..
+-rw-r--r--@ 1 johnniechoi  staff  6148 Sep 12 11:06 .DS_Store
+-rw-r--r--  1 johnniechoi  staff  1775 Sep 12 12:08 index.html
+-rw-r--r--  1 johnniechoi  staff   524 Sep 12 12:10 styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git 
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ clear
+
+
+
+
+
+
+
+
+
+
+
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git --version
+git version 2.10.0
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.1-ugly-website
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ echo "# 1.1-ugly-website" >> README.md
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git init
+Initialized empty Git repository in /Users/johnniechoi/Documents/code/1.1-ugly-website/.git/
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git add README.md
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git commit -m "first commit"
+[master (root-commit) c1e8e09] first commit
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git remote add origin https://github.com/jchoi126/1.1-ugly-website.git
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push -u origin master
+Username for 'https://github.com': jchoi126
+Password for 'https://jchoi126@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 246 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/jchoi126/1.1-ugly-website.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git add index.html style.css
+fatal: pathspec 'style.css' did not match any files
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git add styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git add index.html style.css
+fatal: pathspec 'style.css' did not match any files
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git add index.html styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git add index.html styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls -al
+total 40
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 12 12:20 .
+drwxr-xr-x   4 johnniechoi  staff   136 Sep 12 11:02 ..
+-rw-r--r--@  1 johnniechoi  staff  6148 Sep 12 11:06 .DS_Store
+drwxr-xr-x  12 johnniechoi  staff   408 Sep 12 13:57 .git
+-rw-r--r--   1 johnniechoi  staff    19 Sep 12 12:20 README.md
+-rw-r--r--   1 johnniechoi  staff  1775 Sep 12 12:08 index.html
+-rw-r--r--   1 johnniechoi  staff   527 Sep 12 12:35 styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ open .
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ vi .git/config 
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push
+Identity added: /Users/johnniechoi/.ssh/id_rsa ((null))
+Everything up-to-date
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git add index.html styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git add index.html styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git commit -m "Building website"
+[master cfcf885] Building website
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 72 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.43 KiB | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To github.com:jchoi126/1.1-ugly-website.git
+   c1e8e09..cfcf885  master -> master
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push -u origin master
+Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git checkout -b gh-pages
+M	index.html
+Switched to a new branch 'gh-pages'
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push -u origin gh-pages
+Total 0 (delta 0), reused 0 (delta 0)
+To github.com:jchoi126/1.1-ugly-website.git
+ * [new branch]      gh-pages -> gh-pages
+Branch gh-pages set up to track remote branch gh-pages from origin.
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git add index.html styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git commit -m "Trying this out again"
+[gh-pages f808a1c] Trying this out again
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 37 insertions(+), 8 deletions(-)
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 928 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To github.com:jchoi126/1.1-ugly-website.git
+   cfcf885..f808a1c  gh-pages -> gh-pages
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git remote add origin SSH-GIT-REPO-ADDRESS-HERE
+fatal: remote origin already exists.
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push -u origin master
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git add index.html styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls
+README.md	index.html	styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls -al
+total 40
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 12 12:20 .
+drwxr-xr-x   4 johnniechoi  staff   136 Sep 12 11:02 ..
+-rw-r--r--@  1 johnniechoi  staff  6148 Sep 12 11:06 .DS_Store
+drwxr-xr-x  12 johnniechoi  staff   408 Sep 12 17:39 .git
+-rw-r--r--   1 johnniechoi  staff    19 Sep 12 12:20 README.md
+-rw-r--r--   1 johnniechoi  staff  3098 Sep 12 16:52 index.html
+-rw-r--r--   1 johnniechoi  staff   527 Sep 12 16:09 styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.1-ugly-website
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ 
+  [Restored Sep 12, 2016, 6:20:57 PM]
+Last login: Mon Sep 12 18:20:49 on console
+Restored session: Mon Sep 12 18:20:29 EDT 2016
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.1-ugly-website
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ clear
+
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.1-ugly-website
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls -al
+total 40
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 12 12:20 .
+drwxr-xr-x   4 johnniechoi  staff   136 Sep 12 11:02 ..
+-rw-r--r--@  1 johnniechoi  staff  6148 Sep 12 11:06 .DS_Store
+drwxr-xr-x  12 johnniechoi  staff   408 Sep 12 17:39 .git
+-rw-r--r--   1 johnniechoi  staff    19 Sep 12 12:20 README.md
+-rw-r--r--   1 johnniechoi  staff  3098 Sep 13 08:42 index.html
+-rw-r--r--   1 johnniechoi  staff   527 Sep 12 16:09 styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls
+README.md	index.html	styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ less
+Missing filename ("less --help" for help)
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.1-ugly-website
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ cd
+Johnnies-MacBook-Pro:~ johnniechoi$ pwd
+/Users/johnniechoi
+Johnnies-MacBook-Pro:~ johnniechoi$ cd Documents
+Johnnies-MacBook-Pro:Documents johnniechoi$ pwd
+/Users/johnniechoi/Documents
+Johnnies-MacBook-Pro:Documents johnniechoi$ cd Documents/code/
+-bash: cd: Documents/code/: No such file or directory
+Johnnies-MacBook-Pro:Documents johnniechoi$ cd
+Johnnies-MacBook-Pro:~ johnniechoi$ pwd
+/Users/johnniechoi
+Johnnies-MacBook-Pro:~ johnniechoi$ cd Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ pwd
+/Users/johnniechoi/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ mkdir 1.2-blog
+Johnnies-MacBook-Pro:code johnniechoi$ pwd
+/Users/johnniechoi/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ cd 1.2-blog/
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.2-blog
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git init
+Initialized empty Git repository in /Users/johnniechoi/Documents/code/1.2-blog/.git/
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.2-blog
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ open 1.2-blog
+The file /Users/johnniechoi/Documents/code/1.2-blog/1.2-blog does not exist.
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ open
+Usage: open [-e] [-t] [-f] [-W] [-R] [-n] [-g] [-h] [-b <bundle identifier>] [-a <application>] [filenames] [--args arguments]
+Help: Open opens files from a shell.
+      By default, opens each file using the default application for that file.  
+      If the file is in the form of a URL, the file will be opened as a URL.
+Options: 
+      -a                Opens with the specified application.
+      -b                Opens with the specified application bundle identifier.
+      -e                Opens with TextEdit.
+      -t                Opens with default text editor.
+      -f                Reads input from standard input and opens with TextEdit.
+      -F  --fresh       Launches the app fresh, that is, without restoring windows. Saved persistent state is lost, excluding Untitled documents.
+      -R, --reveal      Selects in the Finder instead of opening.
+      -W, --wait-apps   Blocks until the used applications are closed (even if they were already running).
+          --args        All remaining arguments are passed in argv to the application's main() function instead of opened.
+      -n, --new         Open a new instance of the application even if one is already running.
+      -j, --hide        Launches the app hidden.
+      -g, --background  Does not bring the application to the foreground.
+      -h, --header      Searches header file locations for headers matching the given filenames, and opens them.
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ ls -al
+total 0
+drwxr-xr-x  3 johnniechoi  staff  102 Sep 13 10:19 .
+drwxr-xr-x  5 johnniechoi  staff  170 Sep 13 10:18 ..
+drwxr-xr-x  9 johnniechoi  staff  306 Sep 13 10:19 .git
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ cd .git
+Johnnies-MacBook-Pro:.git johnniechoi$ ls -al
+total 24
+drwxr-xr-x   9 johnniechoi  staff  306 Sep 13 10:21 .
+drwxr-xr-x   3 johnniechoi  staff  102 Sep 13 10:19 ..
+-rw-r--r--   1 johnniechoi  staff   23 Sep 13 10:19 HEAD
+-rw-r--r--   1 johnniechoi  staff  137 Sep 13 10:19 config
+-rw-r--r--   1 johnniechoi  staff   73 Sep 13 10:19 description
+drwxr-xr-x  12 johnniechoi  staff  408 Sep 13 10:19 hooks
+drwxr-xr-x   3 johnniechoi  staff  102 Sep 13 10:19 info
+drwxr-xr-x   4 johnniechoi  staff  136 Sep 13 10:19 objects
+drwxr-xr-x   4 johnniechoi  staff  136 Sep 13 10:19 refs
+Johnnies-MacBook-Pro:.git johnniechoi$ vi config
+Johnnies-MacBook-Pro:.git johnniechoi$ echo "# 1.2-blog" >> README.md
+Johnnies-MacBook-Pro:.git johnniechoi$ git init
+Initialized empty Git repository in /Users/johnniechoi/Documents/code/1.2-blog/.git/.git/
+Johnnies-MacBook-Pro:.git johnniechoi$ git add README.md
+Johnnies-MacBook-Pro:.git johnniechoi$ ls -al
+total 32
+drwxr-xr-x  11 johnniechoi  staff  374 Sep 13 10:36 .
+drwxr-xr-x   3 johnniechoi  staff  102 Sep 13 10:19 ..
+drwxr-xr-x  10 johnniechoi  staff  340 Sep 13 10:37 .git
+-rw-r--r--   1 johnniechoi  staff   23 Sep 13 10:19 HEAD
+-rw-r--r--   1 johnniechoi  staff   11 Sep 13 10:36 README.md
+-rw-r--r--   1 johnniechoi  staff  137 Sep 13 10:31 config
+-rw-r--r--   1 johnniechoi  staff   73 Sep 13 10:19 description
+drwxr-xr-x  12 johnniechoi  staff  408 Sep 13 10:19 hooks
+drwxr-xr-x   3 johnniechoi  staff  102 Sep 13 10:19 info
+drwxr-xr-x   4 johnniechoi  staff  136 Sep 13 10:19 objects
+drwxr-xr-x   4 johnniechoi  staff  136 Sep 13 10:19 refs
+Johnnies-MacBook-Pro:.git johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	HEAD
+	config
+	description
+	hooks/
+	info/
+
+Johnnies-MacBook-Pro:.git johnniechoi$ git add index.html
+fatal: pathspec 'index.html' did not match any files
+Johnnies-MacBook-Pro:.git johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	HEAD
+	config
+	description
+	hooks/
+	info/
+
+Johnnies-MacBook-Pro:.git johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	HEAD
+	config
+	description
+	hooks/
+	info/
+
+Johnnies-MacBook-Pro:.git johnniechoi$ ls -al
+total 32
+drwxr-xr-x  11 johnniechoi  staff  374 Sep 13 10:36 .
+drwxr-xr-x   3 johnniechoi  staff  102 Sep 13 10:19 ..
+drwxr-xr-x  10 johnniechoi  staff  340 Sep 13 10:44 .git
+-rw-r--r--   1 johnniechoi  staff   23 Sep 13 10:19 HEAD
+-rw-r--r--   1 johnniechoi  staff   11 Sep 13 10:36 README.md
+-rw-r--r--   1 johnniechoi  staff  137 Sep 13 10:31 config
+-rw-r--r--   1 johnniechoi  staff   73 Sep 13 10:19 description
+drwxr-xr-x  12 johnniechoi  staff  408 Sep 13 10:19 hooks
+drwxr-xr-x   3 johnniechoi  staff  102 Sep 13 10:19 info
+drwxr-xr-x   4 johnniechoi  staff  136 Sep 13 10:19 objects
+drwxr-xr-x   4 johnniechoi  staff  136 Sep 13 10:19 refs
+Johnnies-MacBook-Pro:.git johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	HEAD
+	config
+	description
+	hooks/
+	info/
+
+Johnnies-MacBook-Pro:.git johnniechoi$ git commit -m "Practicing Stuff"
+[master (root-commit) ad5bf37] Practicing Stuff
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+Johnnies-MacBook-Pro:.git johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.2-blog/.git
+Johnnies-MacBook-Pro:.git johnniechoi$ cd ..
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.2-blog
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git remote add origin git@github.com:jchoi126/1.2-blog.git
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ vi .git/config
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ ll
+-bash: ll: command not found
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.2-blog
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ atom .
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ atom .
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ index.html .
+-bash: index.html: command not found
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ ls -al
+total 16
+drwxr-xr-x   6 johnniechoi  staff   204 Sep 13 11:43 .
+drwxr-xr-x   5 johnniechoi  staff   170 Sep 13 10:18 ..
+drwxr-xr-x  11 johnniechoi  staff   374 Sep 13 10:50 .git
+-rw-r--r--   1 johnniechoi  staff     0 Sep 13 11:41 index.html
+-rw-r--r--   1 johnniechoi  staff  7279 Sep 13 11:42 reset.css
+-rw-r--r--   1 johnniechoi  staff     0 Sep 13 11:43 styles.css
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ index.html .
+-bash: index.html: command not found
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:jchoi126/1.2-blog.git'
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git remote add origin git@github.com:jchoi126/1.2-blog.git
+fatal: remote origin already exists.
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+	index.html
+	reset.css
+	styles.css
+
+nothing added to commit but untracked files present
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:jchoi126/1.2-blog.git'
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+	reset.css
+	styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git add index.html resest.css styles.css
+fatal: pathspec 'resest.css' did not match any files
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git add reset.css
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   reset.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+	styles.css
+
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git add index.html styles.css
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.html
+	new file:   reset.css
+	new file:   styles.css
+
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:jchoi126/1.2-blog.git'
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git commit -m "first commit"
+[master (root-commit) 668b60a] first commit
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 587 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 reset.css
+ create mode 100644 styles.css
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ ls -al
+total 32
+drwxr-xr-x   6 johnniechoi  staff   204 Sep 13 11:43 .
+drwxr-xr-x   5 johnniechoi  staff   170 Sep 13 10:18 ..
+drwxr-xr-x  14 johnniechoi  staff   476 Sep 13 17:08 .git
+-rw-r--r--   1 johnniechoi  staff  2897 Sep 13 15:11 index.html
+-rw-r--r--   1 johnniechoi  staff  7279 Sep 13 11:42 reset.css
+-rw-r--r--   1 johnniechoi  staff  1409 Sep 13 17:10 styles.css
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.2-blog
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push -u origin master
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 3.46 KiB | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To github.com:jchoi126/1.2-blog.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git commit
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	modified:   styles.css
+
+no changes added to commit
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git commit
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	modified:   styles.css
+
+no changes added to commit
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git commit
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	modified:   styles.css
+
+no changes added to commit
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   styles.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git add style.css
+fatal: pathspec 'style.css' did not match any files
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git add styles.css
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   styles.css
+
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git commit
+Aborting commit due to empty commit message.
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   styles.css
+
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git commit
+Aborting commit due to empty commit message.
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   styles.css
+
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git commit
+Aborting commit due to empty commit message.
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git commit -m "changes in the body"
+[master 27e9fbf] changes in the body
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 341 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:jchoi126/1.2-blog.git
+   668b60a..27e9fbf  master -> master
+Johnnies-MacBook-Pro:1.2-blog johnniechoi$ cd ..
+Johnnies-MacBook-Pro:code johnniechoi$ ls
+1.1-ugly-website	1.2-blog
+Johnnies-MacBook-Pro:code johnniechoi$ 1.1-ugly-website/
+-bash: 1.1-ugly-website/: is a directory
+Johnnies-MacBook-Pro:code johnniechoi$ ls
+1.1-ugly-website	1.2-blog
+Johnnies-MacBook-Pro:code johnniechoi$ cd 1.1-ugly-website/
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ ls
+README.md	index.html	styles.css
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ index.html .
+-bash: index.html: command not found
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.1-ugly-website johnniechoi$ cd ..
+Johnnies-MacBook-Pro:code johnniechoi$ pwd
+/Users/johnniechoi/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ mkdir 1.3-octocats
+Johnnies-MacBook-Pro:code johnniechoi$ cd 1.3-octocats/
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.3-octocats
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ git init
+Initialized empty Git repository in /Users/johnniechoi/Documents/code/1.3-octocats/.git/
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ ls -al
+total 0
+drwxr-xr-x  3 johnniechoi  staff  102 Sep 14 10:38 .
+drwxr-xr-x  6 johnniechoi  staff  204 Sep 14 10:38 ..
+drwxr-xr-x  9 johnniechoi  staff  306 Sep 14 10:38 .git
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ ls -al
+total 0
+drwxr-xr-x  3 johnniechoi  staff  102 Sep 14 10:38 .
+drwxr-xr-x  6 johnniechoi  staff  204 Sep 14 10:38 ..
+drwxr-xr-x  9 johnniechoi  staff  306 Sep 14 10:38 .git
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ ls -al
+total 0
+drwxr-xr-x  3 johnniechoi  staff  102 Sep 14 10:38 .
+drwxr-xr-x  6 johnniechoi  staff  204 Sep 14 10:38 ..
+drwxr-xr-x  9 johnniechoi  staff  306 Sep 14 10:38 .git
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ cd ..
+Johnnies-MacBook-Pro:code johnniechoi$ pwd
+/Users/johnniechoi/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ ls
+1.1-ugly-website	1.2-blog		1.3-octocats
+Johnnies-MacBook-Pro:code johnniechoi$ ls -al
+total 16
+drwxr-xr-x  6 johnniechoi  staff   204 Sep 14 10:38 .
+drwx------+ 7 johnniechoi  staff   238 Sep 12 11:08 ..
+-rw-r--r--@ 1 johnniechoi  staff  6148 Sep 13 18:47 .DS_Store
+drwxr-xr-x  7 johnniechoi  staff   238 Sep 12 12:20 1.1-ugly-website
+drwxr-xr-x  6 johnniechoi  staff   204 Sep 13 17:54 1.2-blog
+drwxr-xr-x  3 johnniechoi  staff   102 Sep 14 10:38 1.3-octocats
+Johnnies-MacBook-Pro:code johnniechoi$ cd 1.3-octocats/
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.3-octocats
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ ls -al
+total 0
+drwxr-xr-x  3 johnniechoi  staff  102 Sep 14 10:38 .
+drwxr-xr-x  6 johnniechoi  staff  204 Sep 14 10:38 ..
+drwxr-xr-x  9 johnniechoi  staff  306 Sep 14 10:38 .git
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ touch index.html
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ touch styles.css
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ touch resets.css
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ ls -al
+total 0
+drwxr-xr-x  6 johnniechoi  staff  204 Sep 14 10:41 .
+drwxr-xr-x  6 johnniechoi  staff  204 Sep 14 10:38 ..
+drwxr-xr-x  9 johnniechoi  staff  306 Sep 14 10:40 .git
+-rw-r--r--  1 johnniechoi  staff    0 Sep 14 10:41 index.html
+-rw-r--r--  1 johnniechoi  staff    0 Sep 14 10:41 resets.css
+-rw-r--r--  1 johnniechoi  staff    0 Sep 14 10:41 styles.css
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ atom .
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ vi ~/.profile
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ vi ~/ .profile
+2 files to edit
+
+  [Restored Sep 14, 2016, 10:47:15 AM]
+Last login: Mon Sep 12 18:20:57 on ttys000
+Restored session: Wed Sep 14 10:47:11 EDT 2016
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.3-octocats
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.3-octocats
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.3-octocats
+Johnnies-MacBook-Pro:1.3-octocats johnniechoi$ cd ..
+Johnnies-MacBook-Pro:code johnniechoi$ ls -al
+total 16
+drwxr-xr-x  6 johnniechoi  staff   204 Sep 14 13:38 .
+drwx------+ 7 johnniechoi  staff   238 Sep 12 11:08 ..
+-rw-r--r--@ 1 johnniechoi  staff  6148 Sep 14 13:38 .DS_Store
+drwxr-xr-x  7 johnniechoi  staff   238 Sep 12 12:20 1.1-ugly-website
+drwxr-xr-x  6 johnniechoi  staff   204 Sep 13 17:54 1.2-blog
+drwxr-xr-x  6 johnniechoi  staff   204 Sep 14 10:45 1.3-timeline-layout
+Johnnies-MacBook-Pro:code johnniechoi$ 1.3-timeline-layout/
+-bash: 1.3-timeline-layout/: is a directory
+Johnnies-MacBook-Pro:code johnniechoi$ pwd
+/Users/johnniechoi/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ cd 1.3-timeline-layout/
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.3-timeline-layout
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.3-timeline-layout
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ ls -al
+total 32
+drwxr-xr-x  6 johnniechoi  staff   204 Sep 14 10:45 .
+drwxr-xr-x  6 johnniechoi  staff   204 Sep 14 13:38 ..
+drwxr-xr-x  9 johnniechoi  staff   306 Sep 14 10:40 .git
+-rw-r--r--  1 johnniechoi  staff  2672 Sep 14 17:34 index.html
+-rw-r--r--  1 johnniechoi  staff  7279 Sep 14 10:54 resets.css
+-rw-r--r--  1 johnniechoi  staff  2069 Sep 14 17:34 styles.css
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ gid add index.html resets.css styles.css
+-bash: gid: command not found
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git add index.html resets.css styles.css
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.html
+	new file:   resets.css
+	new file:   styles.css
+
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git commit -m "first up!"
+-bash: !": event not found
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git commit -m "forst up"
+[master (root-commit) 81eda9c] forst up
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 628 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 resets.css
+ create mode 100644 styles.css
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git init
+Reinitialized existing Git repository in /Users/johnniechoi/Documents/code/1.3-timeline-layout/.git/
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.3-timeline-layout
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git add index.html
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git remote add origin git@github.com:jchoi126/1.3-timeline-layout
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ 
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git push -u origin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ echo "# 1.3-timeline-layout" >> README.md
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git add README.md
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   README.md
+
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git commit -m "added the read me"
+[master 41cf555] added the read me
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.3-timeline-layout
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ ls -al
+total 40
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 14 17:50 .
+drwxr-xr-x   6 johnniechoi  staff   204 Sep 14 13:38 ..
+drwxr-xr-x  12 johnniechoi  staff   408 Sep 14 17:50 .git
+-rw-r--r--   1 johnniechoi  staff    22 Sep 14 17:50 README.md
+-rw-r--r--   1 johnniechoi  staff  2672 Sep 14 17:34 index.html
+-rw-r--r--   1 johnniechoi  staff  7279 Sep 14 10:54 resets.css
+-rw-r--r--   1 johnniechoi  staff  2069 Sep 14 17:34 styles.css
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git remote add origin git@github.com:jchoi126/1.3-timeline-layout.git
+fatal: remote origin already exists.
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ nano .git/config
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git push -u origin master
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 3.89 KiB | 0 bytes/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:jchoi126/1.3-timeline-layout
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git add styles.css
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   styles.css
+
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git commit -m "final comp"
+[master 7a87715] final comp
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+), 6 deletions(-)
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 358 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:jchoi126/1.3-timeline-layout
+   41cf555..7a87715  master -> master
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git checkout -b gh-pages
+Switched to a new branch 'gh-pages'
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git push -u origin gh-pages
+Total 0 (delta 0), reused 0 (delta 0)
+To github.com:jchoi126/1.3-timeline-layout
+ * [new branch]      gh-pages -> gh-pages
+Branch gh-pages set up to track remote branch gh-pages from origin.
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git add index.html
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   styles.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git commit -m "final fosho"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	modified:   styles.css
+
+no changes added to commit
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   styles.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git checkout gh-pages
+M	styles.css
+Switched to branch 'gh-pages'
+Your branch is up-to-date with 'origin/gh-pages'.
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git merge master
+Already up-to-date.
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ git checkout master
+M	styles.css
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.3-timeline-layout
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ index.html .
+-bash: index.html: command not found
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ open styles.css
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ clear
+
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.3-timeline-layout
+Johnnies-MacBook-Pro:1.3-timeline-layout johnniechoi$ cd ..
+Johnnies-MacBook-Pro:code johnniechoi$ pwd
+/Users/johnniechoi/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ mkdir 1.4-pixel-perfect
+Johnnies-MacBook-Pro:code johnniechoi$ cd 1.4-pixel-perfect/
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.4-pixel-perfect
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ touch intex.html
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ touch styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ touch resets.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ ls -al
+total 0
+drwxr-xr-x  5 johnniechoi  staff  170 Sep 15 11:38 .
+drwxr-xr-x  7 johnniechoi  staff  238 Sep 15 11:37 ..
+-rw-r--r--  1 johnniechoi  staff    0 Sep 15 11:38 intex.html
+-rw-r--r--  1 johnniechoi  staff    0 Sep 15 11:38 resets.css
+-rw-r--r--  1 johnniechoi  staff    0 Sep 15 11:38 styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ mkdir images
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.4-pixel-perfect
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ ls -al
+total 0
+drwxr-xr-x  6 johnniechoi  staff  204 Sep 15 11:39 .
+drwxr-xr-x  7 johnniechoi  staff  238 Sep 15 11:37 ..
+drwxr-xr-x  2 johnniechoi  staff   68 Sep 15 11:39 images
+-rw-r--r--  1 johnniechoi  staff    0 Sep 15 11:38 intex.html
+-rw-r--r--  1 johnniechoi  staff    0 Sep 15 11:38 resets.css
+-rw-r--r--  1 johnniechoi  staff    0 Sep 15 11:38 styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git init
+Initialized empty Git repository in /Users/johnniechoi/Documents/code/1.4-pixel-perfect/.git/
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	intex.html
+	resets.css
+	styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add index.html styles.css resets.css
+fatal: pathspec 'index.html' did not match any files
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ ls -al
+total 0
+drwxr-xr-x  7 johnniechoi  staff  238 Sep 15 11:39 .
+drwxr-xr-x  7 johnniechoi  staff  238 Sep 15 11:37 ..
+drwxr-xr-x  9 johnniechoi  staff  306 Sep 15 11:40 .git
+drwxr-xr-x  2 johnniechoi  staff   68 Sep 15 11:39 images
+-rw-r--r--  1 johnniechoi  staff    0 Sep 15 11:38 intex.html
+-rw-r--r--  1 johnniechoi  staff    0 Sep 15 11:38 resets.css
+-rw-r--r--  1 johnniechoi  staff    0 Sep 15 11:38 styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ rm intex.html 
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ ls -al
+total 0
+drwxr-xr-x  6 johnniechoi  staff  204 Sep 15 11:40 .
+drwxr-xr-x  7 johnniechoi  staff  238 Sep 15 11:37 ..
+drwxr-xr-x  9 johnniechoi  staff  306 Sep 15 11:40 .git
+drwxr-xr-x  2 johnniechoi  staff   68 Sep 15 11:39 images
+-rw-r--r--  1 johnniechoi  staff    0 Sep 15 11:38 resets.css
+-rw-r--r--  1 johnniechoi  staff    0 Sep 15 11:38 styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ touch index.html
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+	resets.css
+	styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add index.html resets.css styles.css 
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.html
+	new file:   resets.css
+	new file:   styles.css
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add images/
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.html
+	new file:   resets.css
+	new file:   styles.css
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add images/
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.html
+	new file:   resets.css
+	new file:   styles.css
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git commit -m "setting up project"
+[master (root-commit) fdda6a1] setting up project
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 resets.css
+ create mode 100644 styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ ls -al
+total 0
+drwxr-xr-x   7 johnniechoi  staff  238 Sep 15 11:40 .
+drwxr-xr-x   7 johnniechoi  staff  238 Sep 15 11:37 ..
+drwxr-xr-x  12 johnniechoi  staff  408 Sep 15 11:42 .git
+drwxr-xr-x   2 johnniechoi  staff   68 Sep 15 11:39 images
+-rw-r--r--   1 johnniechoi  staff    0 Sep 15 11:40 index.html
+-rw-r--r--   1 johnniechoi  staff    0 Sep 15 11:38 resets.css
+-rw-r--r--   1 johnniechoi  staff    0 Sep 15 11:38 styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ atom .
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.4-pixel-perfect
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add index.htl styles.css 
+fatal: pathspec 'index.htl' did not match any files
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add .
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .DS_Store
+	new file:   Meeting 2.23 Dan Dietz.docx
+	new file:   images/.DS_Store
+	modified:   index.html
+	new file:   logo.png
+	modified:   styles.css
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git commit -m "done minus footer"
+[master 4e71520] done minus footer
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 478 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 Meeting 2.23 Dan Dietz.docx
+ create mode 100644 images/.DS_Store
+ create mode 100644 logo.png
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add .
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+	modified:   styles.css
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git commit -m "lower nav bar left"
+[master 3438981] lower nav bar left
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 175 insertions(+), 18 deletions(-)
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ index.html .
+-bash: index.html: command not found
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ atom .
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ index.html .
+-bash: index.html: command not found
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ index.html
+-bash: index.html: command not found
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add .
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	renamed:    logo.png -> images/logo.png
+	new file:   images/tiy.png
+	modified:   index.html
+	modified:   styles.css
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git commit -m "done"
+[master 29c7538] done
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 126 insertions(+), 24 deletions(-)
+ rename logo.png => images/logo.png (100%)
+ create mode 100644 images/tiy.png
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout -b ghpages
+Switched to a new branch 'ghpages'
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ push -u origin gh-pages
+-bash: push: command not found
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push -u origin gh-pages
+error: src refspec gh-pages does not match any.
+error: failed to push some refs to 'origin'
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ $ git push -u origin gh-pages
+-bash: $: command not found
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push -u origin gh-pages
+error: src refspec gh-pages does not match any.
+error: failed to push some refs to 'origin'
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout master
+Switched to branch 'master'
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.4-pixel-perfect
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ ls -al
+total 216
+drwxr-xr-x   9 johnniechoi  staff    306 Sep 16 20:55 .
+drwxr-xr-x   7 johnniechoi  staff    238 Sep 15 11:37 ..
+-rw-r--r--@  1 johnniechoi  staff   6148 Sep 16 20:55 .DS_Store
+drwxr-xr-x  12 johnniechoi  staff    408 Sep 17 19:56 .git
+-rw-r--r--@  1 johnniechoi  staff  80188 Feb 23  2015 Meeting 2.23 Dan Dietz.docx
+drwxr-xr-x   5 johnniechoi  staff    170 Sep 16 20:55 images
+-rw-r--r--   1 johnniechoi  staff   6155 Sep 17 19:53 index.html
+-rw-r--r--   1 johnniechoi  staff      0 Sep 15 11:38 resets.css
+-rw-r--r--   1 johnniechoi  staff  10076 Sep 17 19:53 styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git remote add origin git@github.com:jchoi126/1.4-pixel-perfect.git
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push -u origin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git remote add origin git@github.com:jchoi126/1.4-pixel-perfect.git
+fatal: remote origin already exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add .
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git commit -m "done fosho"
+On branch master
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push -u origin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git remote add origin git@github.com:jchoi126/1.4-pixel-perfect.git
+fatal: remote origin already exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push -u origin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ vi config
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git remote add origin git@github.com:jchoi126/1.4-pixel-perfect.git
+fatal: remote origin already exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push -u origin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout -b gh-pages
+Switched to a new branch 'gh-pages'
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push -u origin gh-pages
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ vi .git/config
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+fatal: The current branch gh-pages has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin gh-pages
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push --set-upstream origin gh-pages
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ ls -al
+total 216
+drwxr-xr-x  10 johnniechoi  staff    340 Sep 17 20:17 .
+drwxr-xr-x   7 johnniechoi  staff    238 Sep 15 11:37 ..
+-rw-r--r--@  1 johnniechoi  staff   6148 Sep 16 20:55 .DS_Store
+drwxr-xr-x  12 johnniechoi  staff    408 Sep 17 20:43 .git
+-rw-r--r--@  1 johnniechoi  staff  80188 Feb 23  2015 Meeting 2.23 Dan Dietz.docx
+-rw-r--r--   1 johnniechoi  staff      0 Sep 17 20:17 config
+drwxr-xr-x   5 johnniechoi  staff    170 Sep 16 20:55 images
+-rw-r--r--   1 johnniechoi  staff   6155 Sep 17 19:53 index.html
+-rw-r--r--   1 johnniechoi  staff      0 Sep 15 11:38 resets.css
+-rw-r--r--   1 johnniechoi  staff  10076 Sep 17 19:53 styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add .
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git commit
+error: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ vit .git/config
+-bash: vit: command not found
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ vi .git/config
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git remote add origin git@github.com:jchoi126/1.4-pixel-perfect.git
+fatal: remote origin already exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push -u origin master
+Counting objects: 22, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (22/22), 80.59 KiB | 0 bytes/s, done.
+Total 22 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), done.
+To github.com:jchoi126/1.4-pixel-perfect.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+fatal: The current branch gh-pages has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin gh-pages
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch gh-pages
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   config
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+fatal: The current branch gh-pages has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin gh-pages
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout -b gh-pages
+fatal: A branch named 'gh-pages' already exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ push -u origin gh-pages
+-bash: push: command not found
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push -u origin gh-pages
+Total 0 (delta 0), reused 0 (delta 0)
+To github.com:jchoi126/1.4-pixel-perfect.git
+ * [new branch]      gh-pages -> gh-pages
+Branch gh-pages set up to track remote branch gh-pages from origin.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout master
+A	config
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   config
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add .
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   config
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout gh-pages
+A	config
+Switched to branch 'gh-pages'
+Your branch is up-to-date with 'origin/gh-pages'.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ $ git merge master
+-bash: $: command not found
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ $ git push
+-bash: $: command not found
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout gh-pages
+A	config
+Already on 'gh-pages'
+Your branch is up-to-date with 'origin/gh-pages'.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git merge master
+Already up-to-date.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout master
+A	config
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   config
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ ls -al
+total 216
+drwxr-xr-x  10 johnniechoi  staff    340 Sep 17 20:17 .
+drwxr-xr-x   7 johnniechoi  staff    238 Sep 15 11:37 ..
+-rw-r--r--@  1 johnniechoi  staff   6148 Sep 16 20:55 .DS_Store
+drwxr-xr-x  13 johnniechoi  staff    442 Sep 17 20:49 .git
+-rw-r--r--@  1 johnniechoi  staff  80188 Feb 23  2015 Meeting 2.23 Dan Dietz.docx
+-rw-r--r--   1 johnniechoi  staff      0 Sep 17 20:17 config
+drwxr-xr-x   5 johnniechoi  staff    170 Sep 16 20:55 images
+-rw-r--r--   1 johnniechoi  staff   6155 Sep 17 19:53 index.html
+-rw-r--r--   1 johnniechoi  staff      0 Sep 15 11:38 resets.css
+-rw-r--r--   1 johnniechoi  staff  10076 Sep 17 19:53 styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ atom .
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add .
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   config
+	modified:   index.html
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout merge master
+error: pathspec 'merge' did not match any file(s) known to git.
+error: pathspec 'master' did not match any file(s) known to git.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout master
+A	config
+M	index.html
+Already on 'master'
+Your branch is up-to-date with 'origin/master'.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout gh-pages
+A	config
+M	index.html
+Switched to branch 'gh-pages'
+Your branch is up-to-date with 'origin/gh-pages'.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push -u origin gh-pages
+Branch gh-pages set up to track remote branch gh-pages from origin.
+Everything up-to-date
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   config
+	modified:   index.html
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push -u origin master
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git commit -m "resubmit after changes"
+[gh-pages 5c693a3] resubmit after changes
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ create mode 100644 config
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 433 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:jchoi126/1.4-pixel-perfect.git
+   29c7538..5c693a3  gh-pages -> gh-pages
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ ls -al
+total 216
+drwxr-xr-x  10 johnniechoi  staff    340 Sep 17 20:17 .
+drwxr-xr-x   7 johnniechoi  staff    238 Sep 15 11:37 ..
+-rw-r--r--@  1 johnniechoi  staff   6148 Sep 16 20:55 .DS_Store
+drwxr-xr-x  13 johnniechoi  staff    442 Sep 19 09:04 .git
+-rw-r--r--@  1 johnniechoi  staff  80188 Feb 23  2015 Meeting 2.23 Dan Dietz.docx
+-rw-r--r--   1 johnniechoi  staff      0 Sep 17 20:17 config
+drwxr-xr-x   5 johnniechoi  staff    170 Sep 16 20:55 images
+-rw-r--r--   1 johnniechoi  staff   6172 Sep 19 09:01 index.html
+-rw-r--r--   1 johnniechoi  staff      0 Sep 15 11:38 resets.css
+-rw-r--r--   1 johnniechoi  staff  10076 Sep 17 19:53 styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.4-pixel-perfect
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ cd ..
+Johnnies-MacBook-Pro:code johnniechoi$ ls -al
+total 16
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 15 11:37 .
+drwx------+  6 johnniechoi  staff   204 Sep 16 20:54 ..
+-rw-r--r--@  1 johnniechoi  staff  6148 Sep 15 16:18 .DS_Store
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 12 12:20 1.1-ugly-website
+drwxr-xr-x   6 johnniechoi  staff   204 Sep 13 17:54 1.2-blog
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 14 17:50 1.3-timeline-layout
+drwxr-xr-x  10 johnniechoi  staff   340 Sep 17 20:17 1.4-pixel-perfect
+Johnnies-MacBook-Pro:code johnniechoi$ cd 1.4-pixel-perfect/
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ index.htm;
+-bash: index.htm: command not found
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ index.html
+-bash: index.html: command not found
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.4-pixel-perfect
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ ls -al
+total 216
+drwxr-xr-x  10 johnniechoi  staff    340 Sep 17 20:17 .
+drwxr-xr-x   7 johnniechoi  staff    238 Sep 15 11:37 ..
+-rw-r--r--@  1 johnniechoi  staff   6148 Sep 16 20:55 .DS_Store
+drwxr-xr-x  13 johnniechoi  staff    442 Sep 19 09:04 .git
+-rw-r--r--@  1 johnniechoi  staff  80188 Feb 23  2015 Meeting 2.23 Dan Dietz.docx
+-rw-r--r--   1 johnniechoi  staff      0 Sep 17 20:17 config
+drwxr-xr-x   5 johnniechoi  staff    170 Sep 16 20:55 images
+-rw-r--r--   1 johnniechoi  staff   6172 Sep 19 09:01 index.html
+-rw-r--r--   1 johnniechoi  staff      0 Sep 15 11:38 resets.css
+-rw-r--r--   1 johnniechoi  staff  10076 Sep 17 19:53 styles.css
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.4-pixel-perfect
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ open index.html
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git commit -m "done"
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Changes not staged for commit:
+	modified:   styles.css
+
+no changes added to commit
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git add .
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   styles.css
+
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git commit -m "done"
+[gh-pages 9fc4bd0] done
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 27 insertions(+)
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 329 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:jchoi126/1.4-pixel-perfect.git
+   5c693a3..9fc4bd0  gh-pages -> gh-pages
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git branch
+* gh-pages
+  ghpages
+  master
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git branch gh-pages
+fatal: A branch named 'gh-pages' already exists.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git branch flckr
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.4-pixel-perfect
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git master
+git: 'master' is not a git command. See 'git --help'.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git branch
+  flckr
+* gh-pages
+  ghpages
+  master
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git branch testing
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git branch
+  flckr
+* gh-pages
+  ghpages
+  master
+  testing
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git hist
+git: 'hist' is not a git command. See 'git --help'.
+
+Did you mean this?
+	bisect
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git log
+commit 9fc4bd0445ef6fb18d215a4ae23e1935aa6c8ecd
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Mon Sep 19 10:00:17 2016 -0400
+
+    done
+
+commit 5c693a3e6329e9a99894119393389cd1c2c924fc
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Mon Sep 19 09:04:15 2016 -0400
+
+    resubmit after changes
+
+commit 29c75385de4eb019a8ef420f06fdb5c5152fb8b0
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Sat Sep 17 19:55:14 2016 -0400
+
+    done
+
+commit 3438981327937b96d2d8665ad3a683c722998f8e
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Fri Sep 16 20:24:03 2016 -0400
+
+    lower nav bar left
+
+commit 4e7152080a92ce5199d55b1850f96f109ec15f21
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Fri Sep 16 15:43:02 2016 -0400
+
+    done minus footer
+
+commit fdda6a162d0d2095351e14ee1540d6af5903d7e4
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Thu Sep 15 11:42:14 2016 -0400
+
+    setting up project
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git branch
+  flckr
+* gh-pages
+  ghpages
+  master
+  testing
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git log
+commit 29c75385de4eb019a8ef420f06fdb5c5152fb8b0
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Sat Sep 17 19:55:14 2016 -0400
+
+    done
+
+commit 3438981327937b96d2d8665ad3a683c722998f8e
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Fri Sep 16 20:24:03 2016 -0400
+
+    lower nav bar left
+
+commit 4e7152080a92ce5199d55b1850f96f109ec15f21
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Fri Sep 16 15:43:02 2016 -0400
+
+    done minus footer
+
+commit fdda6a162d0d2095351e14ee1540d6af5903d7e4
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Thu Sep 15 11:42:14 2016 -0400
+
+    setting up project
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git check outgh-pages
+git: 'check' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	checkout
+	check-attr
+	cherry
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git checkout gh-pages
+Switched to branch 'gh-pages'
+Your branch is up-to-date with 'origin/gh-pages'.
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ git log
+commit 9fc4bd0445ef6fb18d215a4ae23e1935aa6c8ecd
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Mon Sep 19 10:00:17 2016 -0400
+
+    done
+
+commit 5c693a3e6329e9a99894119393389cd1c2c924fc
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Mon Sep 19 09:04:15 2016 -0400
+
+    resubmit after changes
+
+commit 29c75385de4eb019a8ef420f06fdb5c5152fb8b0
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Sat Sep 17 19:55:14 2016 -0400
+
+    done
+
+commit 3438981327937b96d2d8665ad3a683c722998f8e
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Fri Sep 16 20:24:03 2016 -0400
+
+    lower nav bar left
+
+commit 4e7152080a92ce5199d55b1850f96f109ec15f21
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Fri Sep 16 15:43:02 2016 -0400
+
+    done minus footer
+
+commit fdda6a162d0d2095351e14ee1540d6af5903d7e4
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Thu Sep 15 11:42:14 2016 -0400
+
+    setting up project
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.4-pixel-perfect
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/1.4-pixel-perfect
+Johnnies-MacBook-Pro:1.4-pixel-perfect johnniechoi$ cd ..
+Johnnies-MacBook-Pro:code johnniechoi$ pwd
+/Users/johnniechoi/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ ls -al
+total 16
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 15 11:37 .
+drwx------+  6 johnniechoi  staff   204 Sep 16 20:54 ..
+-rw-r--r--@  1 johnniechoi  staff  6148 Sep 15 16:18 .DS_Store
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 12 12:20 1.1-ugly-website
+drwxr-xr-x   6 johnniechoi  staff   204 Sep 13 17:54 1.2-blog
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 14 17:50 1.3-timeline-layout
+drwxr-xr-x  10 johnniechoi  staff   340 Sep 19 11:07 1.4-pixel-perfect
+Johnnies-MacBook-Pro:code johnniechoi$ mkdir 2.1-responsive
+Johnnies-MacBook-Pro:code johnniechoi$ cd 2.1-responsive
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/2.1-responsive
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git init
+Initialized empty Git repository in /Users/johnniechoi/Documents/code/2.1-responsive/.git/
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git commint -m "just made the goods"
+git: 'commint' is not a git command. See 'git --help'.
+
+Did you mean this?
+	commit
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git commit -m "just made the goods"
+On branch master
+
+Initial commit
+
+nothing to commit
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ touch index.html
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ touch styles.css
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+	styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git add .
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.html
+	new file:   styles.css
+
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ gut commit -m "pushed initial files"
+-bash: gut: command not found
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git commit -m "pushed initial files"
+[master (root-commit) ecacc45] pushed initial files
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 styles.css
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ atom .
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ open index.html
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ gid add .
+-bash: gid: command not found
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git add .
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   bike.png
+	modified:   index.html
+	modified:   styles.css
+
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git commit -m "mid assignment."
+[master 68bb3db] mid assignment.
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 44 insertions(+)
+ create mode 100644 bike.png
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ mkdir resets.css
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+	modified:   styles.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ ls -al
+total 536
+drwxr-xr-x   7 johnniechoi  staff     238 Sep 19 16:46 .
+drwxr-xr-x   8 johnniechoi  staff     272 Sep 19 14:21 ..
+drwxr-xr-x  12 johnniechoi  staff     408 Sep 19 16:46 .git
+-rw-------@  1 johnniechoi  staff  264538 Sep 19 15:12 bike.png
+-rw-r--r--   1 johnniechoi  staff    2044 Sep 19 16:46 index.html
+drwxr-xr-x   2 johnniechoi  staff      68 Sep 19 16:46 resets.css
+-rw-r--r--   1 johnniechoi  staff      69 Sep 19 16:45 styles.css
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ it add .
+-bash: it: command not found
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git add .
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git statis
+git: 'statis' is not a git command. See 'git --help'.
+
+Did you mean this?
+	status
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+	modified:   styles.css
+
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git commit -m 
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git commit -m "added resets and so forth"
+[master 6e4c2b2] added resets and so forth
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 17 insertions(+), 10 deletions(-)
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/2.1-responsive
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ touch bootstrap.js
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ pwd
+/Users/johnniechoi/Documents/code/2.1-responsive
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ ls -al
+total 648
+drwxr-xr-x  10 johnniechoi  staff     340 Sep 19 19:00 .
+drwxr-xr-x   8 johnniechoi  staff     272 Sep 19 14:21 ..
+-rw-r--r--@  1 johnniechoi  staff    6148 Sep 19 18:58 .DS_Store
+drwxr-xr-x  12 johnniechoi  staff     408 Sep 19 16:47 .git
+-rw-------@  1 johnniechoi  staff  264538 Sep 19 15:12 bike.png
+-rw-r--r--   1 johnniechoi  staff       0 Sep 19 19:00 bootstrap.js
+-rw-r--r--@  1 johnniechoi  staff   37045 Jul 25 15:53 bootstrap.min.js
+-rw-r--r--   1 johnniechoi  staff    3596 Sep 19 18:59 index.html
+-rw-r--r--   1 johnniechoi  staff    7279 Sep 14 10:54 resets.css
+-rw-r--r--   1 johnniechoi  staff     320 Sep 19 18:36 styles.css
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ rm boostrap.min.js
+rm: boostrap.min.js: No such file or directory
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ mv bootstra.min.js
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+	modified:   styles.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	bootstrap.js
+	bootstrap.min.js
+	resets.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git add .
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .DS_Store
+	new file:   bootstrap.js
+	new file:   bootstrap.min.js
+	modified:   index.html
+	new file:   resets.css
+	modified:   styles.css
+
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git commit -m "everyting but javascript carousel"
+[master 1715c37] everyting but javascript carousel
+ Committer: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 2891 insertions(+), 10 deletions(-)
+ create mode 100644 .DS_Store
+ create mode 100644 bootstrap.js
+ create mode 100644 bootstrap.min.js
+ create mode 100644 resets.css
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git remote add origin git@github.com:jchoi126/2.1-responsive.git
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git push -u origin master
+Counting objects: 20, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (20/20), 277.43 KiB | 0 bytes/s, done.
+Total 20 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:jchoi126/2.1-responsive.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git config --global core.autocrlf input
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git config --global core.autocrlf true
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ cd
+Johnnies-MacBook-Pro:~ johnniechoi$ git config core safecrlf true
+fatal: not in a git directory
+Johnnies-MacBook-Pro:~ johnniechoi$ git --global core.safecrlf true
+Unknown option: --global
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+Johnnies-MacBook-Pro:~ johnniechoi$ mkdir hello
+Johnnies-MacBook-Pro:~ johnniechoi$ cd hello
+Johnnies-MacBook-Pro:hello johnniechoi$ pwd
+/Users/johnniechoi/hello
+Johnnies-MacBook-Pro:hello johnniechoi$ git init
+Initialized empty Git repository in /Users/johnniechoi/hello/.git/
+Johnnies-MacBook-Pro:hello johnniechoi$ git add hello.rb
+fatal: pathspec 'hello.rb' did not match any files
+Johnnies-MacBook-Pro:hello johnniechoi$ git commit -m "First Commit"
+On branch master
+
+Initial commit
+
+nothing to commit
+Johnnies-MacBook-Pro:hello johnniechoi$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+Johnnies-MacBook-Pro:hello johnniechoi$ ls -al
+total 0
+drwxr-xr-x   3 johnniechoi  staff  102 Sep 19 21:05 .
+drwxr-xr-x+ 29 johnniechoi  staff  986 Sep 19 21:04 ..
+drwxr-xr-x  12 johnniechoi  staff  408 Sep 19 21:05 .git
+Johnnies-MacBook-Pro:hello johnniechoi$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+Johnnies-MacBook-Pro:hello johnniechoi$ git add hello.rb
+fatal: pathspec 'hello.rb' did not match any files
+Johnnies-MacBook-Pro:hello johnniechoi$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+Johnnies-MacBook-Pro:hello johnniechoi$ git add hello.html
+fatal: pathspec 'hello.html' did not match any files
+Johnnies-MacBook-Pro:hello johnniechoi$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+Johnnies-MacBook-Pro:hello johnniechoi$ git add a.html
+fatal: pathspec 'a.html' did not match any files
+Johnnies-MacBook-Pro:hello johnniechoi$ git hist
+git: 'hist' is not a git command. See 'git --help'.
+
+Did you mean this?
+	bisect
+Johnnies-MacBook-Pro:hello johnniechoi$ git log
+fatal: your current branch 'master' does not have any commits yet
+Johnnies-MacBook-Pro:hello johnniechoi$ pwd
+/Users/johnniechoi/hello
+Johnnies-MacBook-Pro:hello johnniechoi$ cd
+Johnnies-MacBook-Pro:~ johnniechoi$ .gitconfig
+-bash: .gitconfig: command not found
+Johnnies-MacBook-Pro:~ johnniechoi$ ls -al
+total 144
+drwxr-xr-x+   29 johnniechoi  staff    986 Sep 19 21:04 .
+drwxr-xr-x     5 root         admin    170 Jul 10  2015 ..
+-r--------     1 johnniechoi  staff      7 Nov  6  2014 .CFUserTextEncoding
+-rw-r--r--@    1 johnniechoi  staff  20484 Sep 19 21:07 .DS_Store
+drwx------    19 johnniechoi  staff    646 Sep 19 19:00 .Trash
+drwxr-xr-x    15 johnniechoi  staff    510 Sep 15 15:26 .atom
+-rw-------     1 johnniechoi  staff   6986 Sep 14 10:47 .bash_history
+-rw-r--r--@    1 johnniechoi  staff     39 Mar 10  2015 .bash_profile
+drwxr-xr-x    15 johnniechoi  staff    510 Sep 19 21:07 .bash_sessions
+-rw-r--r--     1 johnniechoi  staff     24 Sep 19 21:02 .gitconfig
+-rw-------     1 root         staff  19099 Mar 28  2015 .mysql_history
+drwx------     5 johnniechoi  staff    170 Sep 11 20:41 .ssh
+drwxr-xr-x     3 johnniechoi  staff    102 Sep 14 10:47 .vim
+-rw-------     1 johnniechoi  staff   6962 Sep 17 20:46 .viminfo
+drwx------     3 johnniechoi  staff    102 Jun 25  2014 Applications
+drwxr-xr-x     7 johnniechoi  staff    238 May 28 12:44 Calibre Library
+drwx------@    5 johnniechoi  staff    170 Mar  5  2016 Creative Cloud Files
+drwx------@    5 johnniechoi  staff    170 Feb  2  2015 Creative Cloud Files (archived)
+drwx------@    3 johnniechoi  staff    102 Mar 13  2015 Creative Cloud Files (unknown)
+drwx------+   22 johnniechoi  staff    748 Sep 19 15:24 Desktop
+drwx------+    6 johnniechoi  staff    204 Sep 19 18:59 Documents
+drwx------+  130 johnniechoi  staff   4420 Sep 19 21:04 Downloads
+drwx------@   56 johnniechoi  staff   1904 Aug 12  2015 Library
+drwx------+    3 johnniechoi  staff    102 Jan 26  2014 Movies
+drwx------+    6 johnniechoi  staff    204 Jun 22 21:15 Music
+drwx------+ 1166 johnniechoi  staff  39644 Apr 24  2015 Pictures
+drwxr-xr-x+    5 johnniechoi  staff    170 Jan 26  2014 Public
+drwxr-xr-x     8 johnniechoi  staff    272 Feb  6  2015 UserContent
+drwxr-xr-x     3 johnniechoi  staff    102 Sep 19 21:05 hello
+Johnnies-MacBook-Pro:~ johnniechoi$ cd hello
+Johnnies-MacBook-Pro:hello johnniechoi$ .gitconfig
+-bash: .gitconfig: command not found
+Johnnies-MacBook-Pro:hello johnniechoi$ config --global core.autocrlf input
+-bash: config: command not found
+Johnnies-MacBook-Pro:hello johnniechoi$ config --global core.autocrlf input
+-bash: config: command not found
+Johnnies-MacBook-Pro:hello johnniechoi$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+Johnnies-MacBook-Pro:hello johnniechoi$ ls -af
+.	..	.git
+Johnnies-MacBook-Pro:hello johnniechoi$ cd
+Johnnies-MacBook-Pro:~ johnniechoi$ cd
+Johnnies-MacBook-Pro:~ johnniechoi$ ls -af
+.				.ssh				Documents
+..				.Trash				Downloads
+.atom				.vim				hello
+.bash_history			.viminfo			Library
+.bash_profile			Applications			Movies
+.bash_sessions			Calibre Library			Music
+.CFUserTextEncoding		Creative Cloud Files		Pictures
+.DS_Store			Creative Cloud Files (archived)	Public
+.gitconfig			Creative Cloud Files (unknown)	UserContent
+.mysql_history			Desktop
+Johnnies-MacBook-Pro:~ johnniechoi$ cd Documents
+Johnnies-MacBook-Pro:Documents johnniechoi$ ls -af
+.				.DS_Store			App Meeting with Kenny.docx
+..				.localized			code
+Johnnies-MacBook-Pro:Documents johnniechoi$ cd code
+Johnnies-MacBook-Pro:code johnniechoi$ ls -af
+.			.DS_Store		1.2-blog		1.4-pixel-perfect
+..			1.1-ugly-website	1.3-timeline-layout	2.1-responsive
+Johnnies-MacBook-Pro:code johnniechoi$ config --global core.autocrlf input
+-bash: config: command not found
+Johnnies-MacBook-Pro:code johnniechoi$ mkdir git-immersion
+Johnnies-MacBook-Pro:code johnniechoi$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Johnnies-MacBook-Pro:code johnniechoi$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Johnnies-MacBook-Pro:code johnniechoi$ pwd
+/Users/johnniechoi/Documents/code
+Johnnies-MacBook-Pro:code johnniechoi$ mkdir git-immersion
+mkdir: git-immersion: File exists
+Johnnies-MacBook-Pro:code johnniechoi$ cd git-immersion/
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ git config --global core.autocrlff iput
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ git config --global core.autocrlf input
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ git config --global core.safecrlf. true
+error: key does not contain variable name: core.safecrlf.
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ git config --global core.safecrlf true
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ git config --global core.autocrlf true
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ git config --global core.safecrlf true
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ .gitconfig
+-bash: .gitconfig: command not found
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ .gitconfig
+-bash: .gitconfig: command not found
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ config
+-bash: config: command not found
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ git log
+fatal: Not a git repository (or any of the parent directories): .git
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ ls-al
+-bash: ls-al: command not found
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ ls -al
+total 0
+drwxr-xr-x  2 johnniechoi  staff   68 Sep 19 21:15 .
+drwxr-xr-x  9 johnniechoi  staff  306 Sep 19 21:15 ..
+Johnnies-MacBook-Pro:git-immersion johnniechoi$ cd ..
+Johnnies-MacBook-Pro:code johnniechoi$ ls -al
+total 16
+drwxr-xr-x   9 johnniechoi  staff   306 Sep 19 21:15 .
+drwx------+  6 johnniechoi  staff   204 Sep 19 18:59 ..
+-rw-r--r--@  1 johnniechoi  staff  6148 Sep 19 16:48 .DS_Store
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 12 12:20 1.1-ugly-website
+drwxr-xr-x   6 johnniechoi  staff   204 Sep 13 17:54 1.2-blog
+drwxr-xr-x   7 johnniechoi  staff   238 Sep 14 17:50 1.3-timeline-layout
+drwxr-xr-x  10 johnniechoi  staff   340 Sep 19 11:07 1.4-pixel-perfect
+drwxr-xr-x  10 johnniechoi  staff   340 Sep 19 19:00 2.1-responsive
+drwxr-xr-x   2 johnniechoi  staff    68 Sep 19 21:15 git-immersion
+Johnnies-MacBook-Pro:code johnniechoi$ cd 2.1-responsive/
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ ls -al
+total 800
+drwxr-xr-x  10 johnniechoi  staff     340 Sep 19 19:00 .
+drwxr-xr-x   9 johnniechoi  staff     306 Sep 19 21:15 ..
+-rw-r--r--@  1 johnniechoi  staff    6148 Sep 19 18:58 .DS_Store
+drwxr-xr-x  12 johnniechoi  staff     408 Sep 19 19:14 .git
+-rw-------@  1 johnniechoi  staff  264538 Sep 19 15:12 bike.png
+-rw-r--r--   1 johnniechoi  staff   69707 Sep 19 19:01 bootstrap.js
+-rw-r--r--@  1 johnniechoi  staff   37045 Jul 25 15:53 bootstrap.min.js
+-rw-r--r--   1 johnniechoi  staff    4130 Sep 20 08:11 index.html
+-rw-r--r--   1 johnniechoi  staff    7279 Sep 14 10:54 resets.css
+-rw-r--r--   1 johnniechoi  staff     320 Sep 19 18:36 styles.css
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ open index.html 
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git add .
+fatal: LF would be replaced by CRLF in index.html
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git add index.html
+fatal: LF would be replaced by CRLF in index.html
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git log
+commit 1715c37610459852a89a0f2a4717868ce1491336
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Mon Sep 19 19:13:47 2016 -0400
+
+    everyting but javascript carousel
+
+commit 6e4c2b2c868d9879026cc81dbdbb90ff807b470a
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Mon Sep 19 16:47:44 2016 -0400
+
+    added resets and so forth
+
+commit 68bb3dbec02764e0bd8fa286cb592b2cdca29c59
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Mon Sep 19 16:28:24 2016 -0400
+
+    mid assignment.
+
+commit ecacc45b630e577470ff33689601d9bbf76afba2
+Author: Johnnie Choi <johnniechoi@Johnnies-MacBook-Pro.local>
+Date:   Mon Sep 19 14:23:38 2016 -0400
+
+    pushed initial files
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ ls -al
+total 800
+drwxr-xr-x  10 johnniechoi  staff     340 Sep 19 19:00 .
+drwxr-xr-x   9 johnniechoi  staff     306 Sep 19 21:15 ..
+-rw-r--r--@  1 johnniechoi  staff    6148 Sep 19 18:58 .DS_Store
+drwxr-xr-x  12 johnniechoi  staff     408 Sep 20 08:49 .git
+-rw-------@  1 johnniechoi  staff  264538 Sep 19 15:12 bike.png
+-rw-r--r--   1 johnniechoi  staff   69707 Sep 19 19:01 bootstrap.js
+-rw-r--r--@  1 johnniechoi  staff   37045 Jul 25 15:53 bootstrap.min.js
+-rw-r--r--   1 johnniechoi  staff    4232 Sep 20 08:15 index.html
+-rw-r--r--   1 johnniechoi  staff    7279 Sep 14 10:54 resets.css
+-rw-r--r--   1 johnniechoi  staff     320 Sep 19 18:36 styles.css
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git add .
+fatal: LF would be replaced by CRLF in index.html
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git push -u origin master
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ $ git checkout -b gh-pages
+-bash: $: command not found
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ $ git push -u origin gh-pages
+-bash: $: command not found
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ $ git checkout master
+-bash: $: command not found
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git checkout -b gh-pages
+M	index.html
+Switched to a new branch 'gh-pages'
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git checkout master
+M	index.html
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git push
+Everything up-to-date
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git checkout gh-pages
+M	index.html
+Switched to branch 'gh-pages'
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ git add .
+fatal: LF would be replaced by CRLF in index.html
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ atom .
+Johnnies-MacBook-Pro:2.1-responsive johnniechoi$ open index.html
