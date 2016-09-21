@@ -5810,18 +5810,37 @@ button.close {
 h1 {
   color: #7aadfb; }
 
-.gborder {
+.gborder, .gbordert {
   border-radius: 0;
   border-bottom: 2px solid lightgrey; }
+
+.gbordert {
+  margin: 1px; }
+
+.bcolor {
+  background-color: red; }
+
+.bleft {
+  padding-right: 0; }
+
+.bmid {
+  padding-left: 0;
+  padding-right: 0; }
+
+.bright {
+  padding-left: 0; }
 
 .art-color {
   background-color: white; }
 
-.backg {
-  background: url("images/top-image.png") no-repeat content -10px;
-  background-size: cover;
-  position: relative;
-  height: 340px; }
+.btn-size-right {
+  width: 59px;
+  height: 59px;
+  float: right;
+  display: inline-flex;
+  padding: 17px;
+  font-size: 28px;
+  margin: 4px; }
 
 .white {
   color: white;
@@ -5846,15 +5865,38 @@ h1 {
   padding: 0;
   width: 0; }
 
-.profiles {
-  background-repeat: no-repeat;
-  background-image: center; }
+.backrep, .banner {
+  background-size: cover; }
+
+.banner {
+  height: 345px;
+  position: relative;
+  background: url("../images/top-image.png") no-repeat center -180px;
+  border: 10px solid white; }
+
+.banner:before {
+  background: url("../images/grid.png");
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .3; }
+
+.bump1 {
+  margin-top: 60px;
+  margin-left: 10px; }
 
 .bwhite {
   background-color: white; }
 
 .bwhite > img {
   padding: 12px; }
+
+.theight {
+  height: 464px; }
 
 .top-buttons {
   color: white; }
