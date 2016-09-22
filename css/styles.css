@@ -5826,6 +5826,18 @@ h1 {
 .facecolor {
   background-color: #445797; }
 
+.byoucolor {
+  background-color: #737373; }
+
+.btwitcolor {
+  background-color: #ADADAD; }
+
+.brsscolor {
+  background-color: #AEAEAE; }
+
+.bfacecolor {
+  background-color: #4F4F4F; }
+
 .gbordert {
   margin: 1px; }
 
@@ -5852,6 +5864,15 @@ h1 {
   display: inline-flex;
   padding: 17px;
   font-size: 28px;
+  margin: 19px 0px 6px 18px; }
+
+.btn-size-left {
+  width: 30px;
+  height: 30px;
+  float: left;
+  display: inline-flex;
+  padding: 5px 0 0 8px;
+  font-size: 16px;
   margin: 4px; }
 
 .nav-font-size {
@@ -5987,6 +6008,31 @@ body:before {
 
 p {
   line-height: 27px; }
+
+#rectangle {
+  width: 200px;
+  height: 100px;
+  background: red; }
+
+#triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 35px solid red;
+  border-bottom: 50px solid transparent;
+  margin: -100px 0 0 200px; }
+
+.skate {
+  padding-top: 38px;
+  color: white;
+  font-family: helvetica;
+  font-size: 21px;
+  padding-left: 11px; }
+
+.skate-rectangle {
+  position: absolute;
+  margin-left: -243px;
+  margin-top: 49px; }
 
 @media screen and (max-width: 1024px) {
   /* Specific to this particular image */
