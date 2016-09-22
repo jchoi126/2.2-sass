@@ -15,10 +15,23 @@ h1{
 }
 
 .gborder{
-  border-radius: 0;
-  border-bottom: 4px solid lightgrey;
-  // opacity: ;
-  // padding: 3px;
+  box-shadow: 0px 3px 0px #888888;
+  border-radius: 0px;
+}
+
+.subscribe{
+  position: relative;
+  float: left;
+  display: inline-flex;
+  margin-top: 34px;
+  color: white;
+}
+
+.dots{
+  display: inline-block;
+    margin-top: 28px;
+    margin-left: 153px;
+    color: white;
 }
 
 .youcolor{
